@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    background-color: #222831; /* dark background */
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 5%;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-links a {
+    margin-left: 200px;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+.nav-links a:hover {
+    color: #00bfff; /* Light blue hover effect */
+}
+
+
+.herosection {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    background-color: #222831; /* optional: dark background */
+    color: white;
+    flex-wrap: wrap; /* responsive for smaller screens */
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.tag {
+    font-size: 4rem;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.connect {
+    display: flex;
+    gap: 20px;
+}
+
+.connected {
+    font-size: 1.2rem;
+    padding: 12px 24px;
+    margin-left: 50px;
+    border-radius: 30px;
+    border: none;
+    background-color: #00bfff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.connected:hover {
+    background-color: #009acd;
+}
+
+.heroimage img {
+    margin-right: 100px;
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+    border-radius: 1000px;
+    box-shadow: 0 4px 100px rgba(0, 191, 255, 0.3);
+}
+
+
+.myself{
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 180px;
+    background-color: #222831; /* optional: dark background */
+    color: white;
+    flex-wrap: wrap; /* responsive for smaller screens */
+}
+
+
+.brief{
+    height: 100vh;
+    font-size: 1.2rem;
+    margin-right: 1000px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.about-section {
+    background-color: #222831; /* Dark theme match */
+    color: white;
+    padding: 100px 100px 0px 100px; /* Matches hero section's left padding */
+}
+
+.aboutheading {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.brief {
+    font-size: 1.2rem;
+    max-width: 700px;
+    line-height: 1.6;
+}
+
+.contact-section {
+  background-color: #222831;
+  color: white;
+  padding: 100px 100px;
+}
+
+.contact-heading {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 700px;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.form-row input[type="text"],
+.form-row input[type="email"],
+.form-row textarea {
+  flex: 1;
+  padding: 12px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #393e46;
+  color: white;
+}
+
+textarea {
+  width: 100%;
+  resize: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #ccc;
+}
+
+.file-label {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+input[type="file"] {
+  margin-left: 10px;
+  color: white;
+}
+
+.send-button {
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  background-color: #00bfff;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.send-button:hover {
+  background-color: #009acd;
+}
